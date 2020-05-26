@@ -4,9 +4,13 @@ Normal download and installation visit [here](https://kx.com/connect-with-us/dow
 
 You may request [academic license](https://kx.com/connect-with-us/kx-academic-program/) (not necessary).
 
-I installed the `q` with a machine-learning environment setup:
+I installed the `q` with a machine-learning environment setup.
 
 ### Download `jupyterq` via Anaconda
+
+> Jupyter kernel for kdb+: https://code.kx.com/q/ml/jupyterq/
+
+<img src="https://i.imgur.com/pUdS8dq.png" width=800 alt="kdb kernel" />
 
 The three Kx packages can be downloaded from [anaconda.org/kx](https://anaconda.org/kx):
 
