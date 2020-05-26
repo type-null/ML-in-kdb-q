@@ -8,7 +8,7 @@ I installed the `q` with a machine-learning environment setup.
 
 ### Download `jupyterq` via Anaconda
 
-> Jupyter kernel for kdb+: https://code.kx.com/q/ml/jupyterq/
+> Jupyter kernel for kdb+ introduction: https://code.kx.com/q/ml/jupyterq/
 
 <img src="https://i.imgur.com/pUdS8dq.png" width=800 alt="kdb kernel" />
 
