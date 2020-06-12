@@ -87,3 +87,8 @@ q)\\
 $
 ```
 
+# Run in Matlab
+For macOS, you need to [set PATH for Finder-launched applications
+](https://apple.stackexchange.com/questions/51677/how-to-set-path-for-finder-launched-applications)
+
+Download java support files as [official Matlab client for kdb+ documentation](https://code.kx.com/q/interfaces/matlab-client-for-q/) suggests.
