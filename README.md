@@ -89,6 +89,31 @@ $
 
 # Run in Matlab
 For macOS, you need to [set PATH for Finder-launched applications
-](https://apple.stackexchange.com/questions/51677/how-to-set-path-for-finder-launched-applications)
+](https://www.mathworks.com/matlabcentral/answers/27762-executing-unix-commands-set-in-path-in-matlab-does-not-work-with-unix-command).
+
+```matlab
+PATH = getenv('PATH');
+setenv('PATH', [PATH ':/Users/<usename>/anaconda3/q/m64')];
+```
 
 Download java support files as [official Matlab client for kdb+ documentation](https://code.kx.com/q/interfaces/matlab-client-for-q/) suggests.
+
+```matlab
+javaaddpath /home/myusername/jdbc.jar
+javaaddpath /home/myusername/c.jar
+```
+
+We can confirm that we’ve added this successfully using the `javaclasspath` function. In Matlab command window:
+
+```bash
+>> javaclasspath
+    STATIC JAVA PATH
+...
+    /opt/matlab/2015b/java/jar/toolbox/stats.jar
+    /opt/matlab/2015b/java/jar/toolbox/symbol.jar
+
+    DYNAMIC JAVA PATH
+
+    /home/myusername/jdbc.jar
+    /home/myusername/c.jar
+```
