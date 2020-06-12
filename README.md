@@ -88,6 +88,12 @@ $
 ```
 
 # Run in Matlab
+Datafeed Toolbox™ functions enable you to create a Kx Systems, Inc. kdb+ database connection and retrieve data from and write data into a Kx Systems, Inc. kdb+ database.
+
+To retrieve data, first create a Kx Systems, Inc. kdb+ database connection by using the kx function, and then use the fetch function. To write data into the database, use the write function.
+
+For details about the interface, see [MATLAB client for kdb+](https://code.kx.com/q/interfaces/matlab-client-for-q/).
+
 For macOS, you need to [set PATH for Finder-launched applications
 ](https://www.mathworks.com/matlabcentral/answers/27762-executing-unix-commands-set-in-path-in-matlab-does-not-work-with-unix-command).
 
@@ -96,7 +102,7 @@ PATH = getenv('PATH');
 setenv('PATH', [PATH ':/Users/<usename>/anaconda3/q/m64')];
 ```
 
-Download java support files as [official Matlab client for kdb+ documentation](https://code.kx.com/q/interfaces/matlab-client-for-q/) suggests.
+Download java support files as [MATLAB client for kdb+](https://code.kx.com/q/interfaces/matlab-client-for-q/) suggests.
 
 ```matlab
 javaaddpath /home/myusername/jdbc.jar
