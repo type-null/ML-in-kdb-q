@@ -1,4 +1,4 @@
-# Installation Guide for `q` 
+# Installation Guide for `q`
 
 Normal download and installation visit [here](https://kx.com/connect-with-us/download/).
 
